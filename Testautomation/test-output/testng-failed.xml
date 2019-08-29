@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite11]">
+  <test thread-count="5" name="Testautomation12(failed)">
+    <classes>
+      <class name="pickdate">
+        <methods>
+          <include name="Testcases"/>
+          <include name="close"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- pickdate -->
+      <class name="MercuryTour">
+        <methods>
+          <include name="quit"/>
+          <include name="TC1"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- MercuryTour -->
+    </classes>
+  </test> <!-- Testautomation12(failed) -->
+</suite> <!-- Failed suite [Suite11] -->
